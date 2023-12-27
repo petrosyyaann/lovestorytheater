@@ -1,7 +1,7 @@
 import { Button, Center, Text, Stack } from '@chakra-ui/react';
 import { Link } from 'react-router-dom';
 
-export const Home = () => (
+const Home = () => (
   <Center h='100vh'>
     <Stack>
       <Text textAlign='center'>Старница Home</Text>
@@ -11,3 +11,5 @@ export const Home = () => (
     </Stack>
   </Center>
 );
+
+export default Home;
