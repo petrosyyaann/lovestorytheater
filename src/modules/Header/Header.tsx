@@ -1,11 +1,14 @@
-import { Heading, Text } from '@chakra-ui/react';
+import { Flex, Heading, Text } from '@chakra-ui/react';
+import { MenuIcon } from 'ui/iconpack';
 
 const Header = () => {
   return (
-    <div>
-      <Heading color='white'>Heading</Heading>
-      <Text color='white'>Text</Text>
-    </div>
+    <Flex w='100%' alignItems='center' justifyContent='space-between' p={15}>
+      <Heading fontSize={14} color='white'>
+        “Он и она”
+      </Heading>
+      <MenuIcon />
+    </Flex>
   );
 };
 

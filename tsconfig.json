@@ -21,7 +21,7 @@
       "modules/*": ["modules/*"],
       "components/*": ["components/*"],
       "ui/*": ["ui/*"],
-      "assets/*": ["assets/*"]
+      "assets/*": ["assets/*"],
     }
   },
   "include": ["src", "vite.config.ts", "vitest.config.ts"],

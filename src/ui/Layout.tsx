@@ -6,7 +6,7 @@ interface LayoutProps {
 }
 
 export const Layout = ({ children }: LayoutProps) => (
-  <Flex w='100%' h='100%' bg='#090A0B'>
+  <Flex w='100%' h='100%' bg='#090A0B' direction='column'>
     {children}
   </Flex>
 );
