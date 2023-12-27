@@ -1,9 +1,9 @@
 import ReactDOM from 'react-dom/client';
-import { ChakraProvider } from '@chakra-ui/react';
 import { Pages } from './pages/index';
+import { CombinedProviders } from './app/lib';
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
-  <ChakraProvider>
+  <CombinedProviders>
     <Pages />
-  </ChakraProvider>
+  </CombinedProviders>
 );

@@ -1,14 +1,20 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import { Home } from './Home';
+import { Routes, Route, BrowserRouter } from 'react-router-dom';
+import { lazy } from 'react';
 import { Page404 } from './Page404';
+import { Layout } from '../ui/Layout';
+
+const Header = lazy(() => import('../modules/Header/Header'));
+
+const HomePage = lazy(() => import('./Home'));
 
 export const Pages = () => {
   return (
-    <BrowserRouter>
+    <Layout>
+      <Header />
       <Routes>
-        <Route path='/' element={<Home />} />
+        <Route path='/' element={<HomePage />} />
         <Route path='*' element={<Page404 />} />
       </Routes>
-    </BrowserRouter>
+    </Layout>
   );
 };
