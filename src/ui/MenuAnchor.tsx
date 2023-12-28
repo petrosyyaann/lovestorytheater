@@ -1,20 +1,52 @@
-import { Flex, Link } from '@chakra-ui/react';
+import { Flex, Text } from '@chakra-ui/react';
 
 const MenuAnchor = () => {
   return (
     <Flex gap='76px' direction='row'>
-      <Link color='#FFF' fontSize='30px'>
+      <Text
+        color='#FFF'
+        fontSize='30px'
+        _hover={{
+          bgGradient: 'linear-gradient(90deg, #B67D3A -3.44%, #FFF 100%)',
+          bgClip: 'text',
+          cursor: 'pointer',
+        }}
+      >
         Главная
-      </Link>
-      <Link color='#FFF' fontSize='30px'>
+      </Text>
+      <Text
+        color='#FFF'
+        fontSize='30px'
+        _hover={{
+          bgGradient: 'linear-gradient(90deg, #B67D3A -3.44%, #FFF 100%)',
+          bgClip: 'text',
+          cursor: 'pointer',
+        }}
+      >
         О спектакле
-      </Link>
-      <Link color='#FFF' fontSize='30px'>
+      </Text>
+      <Text
+        color='#FFF'
+        fontSize='30px'
+        _hover={{
+          bgGradient: 'linear-gradient(90deg, #B67D3A -3.44%, #FFF 100%)',
+          bgClip: 'text',
+          cursor: 'pointer',
+        }}
+      >
         Билеты
-      </Link>
-      <Link color='#FFF' fontSize='30px'>
+      </Text>
+      <Text
+        color='#FFF'
+        fontSize='30px'
+        _hover={{
+          bgGradient: 'linear-gradient(90deg, #B67D3A -3.44%, #FFF 100%)',
+          bgClip: 'text',
+          cursor: 'pointer',
+        }}
+      >
         Контакты
-      </Link>
+      </Text>
     </Flex>
   );
 };
