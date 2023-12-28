@@ -1,0 +1,1 @@
+import{j as e,C as s,S as t,T as a,B as n,L as o}from"./index-xEgeZkDN.js";const c=()=>e.jsx(s,{h:"100vh",children:e.jsxs(t,{children:[e.jsx(a,{textAlign:"center",children:"Старница Home"}),e.jsx(n,{as:o,to:"/asdfg",colorScheme:"blue",children:"Перейти на страницу 404"})]})});export{c as default};
