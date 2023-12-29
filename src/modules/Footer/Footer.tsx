@@ -25,18 +25,18 @@ const Footer = () => {
       </Text>
       <Flex gap={isLargerThan1000 ? '90px' : '16px'}>
         <Flex direction='column' gap={isLargerThan1000 ? '38px' : '9px'}>
-          <Text color='white' fontSize={isLargerThan1000 ? '30px' : '12px'}>
+          <Text fontSize={isLargerThan1000 ? '30px' : '12px'}>
             Sazykin_egoriy@mail.ru
           </Text>
-          <Text color='white' fontSize={isLargerThan1000 ? '30px' : '12px'}>
+          <Text fontSize={isLargerThan1000 ? '30px' : '12px'}>
             88kontora@gmail.com
           </Text>
         </Flex>
         <Flex direction='column' gap={isLargerThan1000 ? '38px' : '9px'}>
-          <Text color='white' fontSize={isLargerThan1000 ? '30px' : '12px'}>
+          <Text fontSize={isLargerThan1000 ? '30px' : '12px'}>
             + 8(915)-149-44-46
           </Text>
-          <Text color='white' fontSize={isLargerThan1000 ? '30px' : '12px'}>
+          <Text fontSize={isLargerThan1000 ? '30px' : '12px'}>
             + 8(980)-168-33-55
           </Text>
         </Flex>

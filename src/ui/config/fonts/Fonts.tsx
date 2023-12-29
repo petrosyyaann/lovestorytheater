@@ -14,8 +14,14 @@ const Fonts = () => (
       @font-face {
         font-family: 'Cormorant';
         font-style: normal;
-        font-weight: 600;
+        font-weight: 700;
         src: url(${Cormorant}) format('woff2');
+      }
+      p, h1, h2, a {
+        color: #ffffff;
+      }
+      html {
+        background-color: #090A0B;
       }
       `}
   />
