@@ -10,8 +10,8 @@ export const MenuIcon = (props: SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <path
-      fill-rule='evenodd'
-      clip-rule='evenodd'
+      fillRule='evenodd'
+      clipRule='evenodd'
       d='M12 1H0V0H12V1ZM12 4H0V3H12V4ZM0 7H12V6H0V7Z'
       fill='#FEFDFC'
     />

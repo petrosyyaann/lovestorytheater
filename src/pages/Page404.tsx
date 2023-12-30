@@ -8,7 +8,7 @@ export const Page404 = () => {
         <Heading>404</Heading>
         <Text>Страница не найдена</Text>
         <Button as={Link} to='/' colorScheme='gray'>
-          Перейти на страницу Home
+          Перейти на главную страницу
         </Button>
       </Stack>
     </Center>
