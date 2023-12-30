@@ -1,6 +1,6 @@
 import { Flex, Heading, Text, useMediaQuery } from '@chakra-ui/react';
-import MenuAnchor from 'ui/MenuAnchor';
-import { MenuDrawer } from 'ui/MenuDrawer';
+import MenuAnchor from 'modules/MenuAnchor/MenuAnchor';
+import { MenuDrawer } from 'modules/MenuDrawer/MenuDrawer';
 
 const Header = () => {
   const [isLargerThan900] = useMediaQuery('(min-width: 900px)');

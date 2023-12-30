@@ -15,6 +15,7 @@ export const Description = () => {
         fontSize={['20px', '30px', '50px', '75px', '95px']}
         bgGradient='linear-gradient(90deg, #B67D3A -3.44%, #FFF 100%)'
         bgClip='text'
+        id='description'
       >
         О спектакле
       </Heading>

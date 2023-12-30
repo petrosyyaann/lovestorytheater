@@ -6,13 +6,17 @@ export const BusinessСard = () => {
   return (
     <Center w='100%' flexDirection='column'>
       <Heading
+        id='businesscard'
         fontSize={['20px', '30px', '50px', '75px', '95px']}
         bgGradient='linear-gradient(90deg, #B67D3A -3.44%, #FFF 100%)'
         bgClip='text'
       >
         ИСТОРИЯ ВАШЕЙ ЛЮБВИ
       </Heading>
-      <Text fontSize={['15px', '18px', '20px', '25px', '30px']}>
+      <Text
+        fontWeight={600}
+        fontSize={['15px', '18px', '20px', '25px', '30px']}
+      >
         Иммерсивный спектакль
       </Text>
       <Flex

@@ -4,6 +4,7 @@ const Footer = () => {
   const [isLargerThan1000] = useMediaQuery('(min-width: 1000px)');
   return (
     <Flex
+      id='contacts'
       direction='column'
       py={['20px', '33px', '47px', '60px', '75px']}
       px={['22px', '42px', '62px', '82px', '111px']}
@@ -23,7 +24,7 @@ const Footer = () => {
       >
         почта и телефон
       </Text>
-      <Flex gap={['16px', '53px', '62px', '76px', '90px']}> 
+      <Flex gap={['16px', '53px', '62px', '76px', '90px']}>
         <Flex direction='column' gap={['9px', '16px', '23px', '30px', '38px']}>
           <Text fontSize={['12px', '17px', '21px', '26px', '30px']}>
             Sazykin_egoriy@mail.ru
