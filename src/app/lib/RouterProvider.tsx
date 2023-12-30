@@ -1,3 +1,4 @@
+import { Loading } from 'pages/Loading';
 import { ReactNode, Suspense } from 'react';
 import { BrowserRouter } from 'react-router-dom';
 
@@ -7,6 +8,6 @@ interface RouterProviderProps {
 
 export const RouterProvider = ({ children }: RouterProviderProps) => (
   <BrowserRouter>
-    <Suspense fallback={<div>loading...</div>}>{children}</Suspense>
+    <Suspense fallback={<Loading />}>{children}</Suspense>
   </BrowserRouter>
 );
