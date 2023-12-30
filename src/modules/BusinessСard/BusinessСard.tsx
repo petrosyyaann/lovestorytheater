@@ -20,6 +20,7 @@ export const BusinessСard = () => {
         w='100%'
         backgroundImage={MainPage}
         backgroundSize='cover'
+        backgroundPosition='50% 50%'
         h={['360px', '455px', '550px', '640px', '725px']}
         alignItems='flex-end'
         justifyContent='center'

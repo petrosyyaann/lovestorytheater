@@ -9,8 +9,9 @@ const Header = () => {
       w='100%'
       alignItems='center'
       justifyContent='space-between'
-      py={['15px', '25px', '33px', '40px', '50px']}
-      px={['14px', '30px', '60px', '70px', '80px']}
+      pt={['15px', '18px', '21px', '25px', '30px']}
+      px={['14px', '18px', '30px', '35px', '40px']}
+      pb={['20px', '30px', '40px', '60px', '70px']}
     >
       <Heading
         fontSize={['14px', '18px', '25px', '30px', '40px']}
