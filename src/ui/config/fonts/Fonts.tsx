@@ -14,7 +14,7 @@ const Fonts = () => (
       @font-face {
         font-family: 'Cormorant';
         font-style: normal;
-        font-weight: 700;
+        font-weight: 500;
         src: url(${Cormorant}) format('woff2');
       }
       p, h1, h2, a {
@@ -22,6 +22,7 @@ const Fonts = () => (
       }
       html {
         background-color: #090A0B;
+        scroll-behavior: smooth;
       }
       `}
   />
