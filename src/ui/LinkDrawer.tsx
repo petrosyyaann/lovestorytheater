@@ -8,7 +8,7 @@ interface LinkDrawerProps {
 const LinkDrawer = ({ text, link, onClick }: LinkDrawerProps) => {
   const handleClick = () => {
     onClick();
-    window.location.href = `/#${link}`;
+    window.location.href = `#${link}`;
   };
   return (
     <Text

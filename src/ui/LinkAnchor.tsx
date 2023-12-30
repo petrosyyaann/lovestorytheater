@@ -14,7 +14,7 @@ const LinkAnchor = ({ text, link }: LinkAnchorProps) => {
         bgClip: 'text',
         cursor: 'pointer',
       }}
-      onClick={() => (window.location.href = `/#${link}`)}
+      onClick={() => (window.location.href = `#${link}`)}
     >
       {text}
     </Text>
