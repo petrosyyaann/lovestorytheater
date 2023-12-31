@@ -54,7 +54,7 @@ export const Tickets = () => {
           /> */}
           <object style={{ zIndex: 2 }} type='image/svg+xml' data={Ticket} />
           <object
-            style={{ transform: 'rotate(12deg)', marginTop: '-23px' }}
+            style={{ transform: 'rotate(12deg)' }}
             type='image/svg+xml'
             data={Ticket}
           />

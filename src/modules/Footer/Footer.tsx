@@ -8,7 +8,7 @@ const Footer = () => {
       direction='column'
       alignItems={isLargerThan1000 ? '' : 'center'}
       py={['20px', '33px', '47px', '60px', '75px']}
-      pl={['22px', '42px', '62px', '82px', '111px']}
+      pl={['0', '0', '0', '82x', '111px']}
       gap={['11px', '17px', '23px', '29px', '35px']}
     >
       <Text
