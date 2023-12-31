@@ -23,6 +23,7 @@ const Fonts = () => (
       html {
         background-color: #090A0B;
         scroll-behavior: smooth;
+        overflow-x: hidden;
       }
       `}
   />
