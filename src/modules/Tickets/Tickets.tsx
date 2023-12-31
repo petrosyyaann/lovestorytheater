@@ -44,13 +44,19 @@ export const Tickets = () => {
           </Text>
           {isLargerThan992 && <ButtonBuy />}
         </Flex>
-        <Flex direction='column' p={['40px', '60px', '80px', '60px', '80px']}>
-          <Image zIndex={2} src={Ticket} />
 
+        <Flex direction='column' p={['40px', '60px', '80px', '60px', '80px']}>
+          {/* <Image zIndex={2} src={Ticket} />
           <Image
             mt={['-13px', '-22px', '-23px', '-24px', '-25px']}
             transform='rotate(12deg)'
             src={Ticket}
+          /> */}
+          <object style={{ zIndex: 2 }} type='image/svg+xml' data={Ticket} />
+          <object
+            style={{ transform: 'rotate(12deg)', marginTop: '-23px' }}
+            type='image/svg+xml'
+            data={Ticket}
           />
         </Flex>
       </Flex>
