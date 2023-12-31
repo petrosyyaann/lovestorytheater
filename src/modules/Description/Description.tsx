@@ -7,13 +7,14 @@ export const Description = () => {
   return (
     <Flex
       w='100%'
-      mt={['14px', '23px', '27px', '35px', '40px']}
+      mt={['14px', '23px', '30px', '40px', '50px']}
       direction='column'
     >
       <Heading
         ml={['22px', '42px', '62px', '82px', '100px']}
-        fontSize={['20px', '30px', '50px', '75px', '95px']}
-        bgGradient='linear-gradient(90deg, #B67D3A -3.44%, #FFF 100%)'
+        fontSize={['20px', '30px', '45px', '55px', '75px']}
+        bgGradient='linear(to-r, #B67D3A, #FFFFFF)'
+        w='fit-content'
         bgClip='text'
         id='description'
       >
@@ -29,7 +30,7 @@ export const Description = () => {
           ml={['22px', '42px', '62px', '82px', '100px']}
           mr={['38px', '52px', '62px', '30px', '30px']}
           gap={['15px', '30px', '50px', '70px', '100px']}
-          fontSize={['14px', '19px', '25px', '30px', '36px']}
+          fontSize={['14px', '16px', '18px', '20px', '25px']}
         >
           <Text>
             “История вашей любви” — необыкновенное путешествие во времени и

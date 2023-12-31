@@ -7,8 +7,9 @@ export const BusinessСard = () => {
     <Center w='100%' flexDirection='column'>
       <Heading
         id='businesscard'
-        fontSize={['20px', '30px', '50px', '75px', '95px']}
+        fontSize={['20px', '30px', '45px', '55px', '75px']}
         bgGradient='linear-gradient(90deg, #B67D3A -3.44%, #FFF 100%)'
+        w='fit-content'
         bgClip='text'
       >
         ИСТОРИЯ ВАШЕЙ ЛЮБВИ

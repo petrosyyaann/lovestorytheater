@@ -14,7 +14,7 @@ const Header = () => {
       pb={['20px', '30px', '40px', '60px', '70px']}
     >
       <Heading
-        fontSize={['14px', '18px', '25px', '30px', '40px']}
+        fontSize={['14px', '18px', '20px', '22px', '25px']}
         color='white'
       >
         “Он и она”

@@ -1,4 +1,4 @@
-import { Flex } from '@chakra-ui/react';
+import { Flex, Divider } from '@chakra-ui/react';
 import { BusinessСard } from 'modules/BusinessСard/BusinessСard';
 import { Description } from 'modules/Description/Description';
 import { Tickets } from 'modules/Tickets/Tickets';
@@ -8,6 +8,7 @@ const Home = () => (
     <BusinessСard />
     <Description />
     <Tickets />
+    <Divider color='#232323' />
   </Flex>
 );
 

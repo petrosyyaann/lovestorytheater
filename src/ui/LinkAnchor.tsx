@@ -8,9 +8,10 @@ const LinkAnchor = ({ text, link }: LinkAnchorProps) => {
   return (
     <Text
       fontWeight={700}
-      fontSize={['14px', '20px', '25px', '30px', '35px']}
+      fontSize={['14px', '18px', '20px', '22px', '25px']}
       _hover={{
         bgGradient: 'linear-gradient(90deg, #B67D3A -3.44%, #FFF 100%)',
+        w: 'fit-content',
         bgClip: 'text',
         cursor: 'pointer',
       }}
