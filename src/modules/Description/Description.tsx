@@ -1,6 +1,5 @@
-import { Flex, Heading, Text, useMediaQuery } from '@chakra-ui/react';
+import { Flex, Text, useMediaQuery } from '@chakra-ui/react';
 import DescriptionPage from '../../../public/assets/DescriptionPage.png';
-import { ButtonBuy } from 'components/ButtonBuy';
 
 export const Description = () => {
   const [isLargerThan992] = useMediaQuery('(min-width: 992px)');
@@ -10,16 +9,17 @@ export const Description = () => {
       mt={['14px', '23px', '30px', '40px', '50px']}
       direction='column'
     >
-      <Heading
+      <Text
+        fontFamily='Calypso'
         ml={['22px', '42px', '62px', '82px', '100px']}
-        fontSize={['20px', '30px', '45px', '55px', '75px']}
+        fontSize={['24px', '30px', '45px', '55px', '75px']}
         bgGradient='linear(to-r, #B67D3A, #FFFFFF)'
         w='fit-content'
         bgClip='text'
         id='description'
       >
         О спектакле
-      </Heading>
+      </Text>
       <Flex
         direction={['column', 'column', 'column', 'row', 'row']}
         gap={['22px', '35px', '0px', '0px', '0px']}
@@ -29,8 +29,8 @@ export const Description = () => {
           justifyContent='center'
           ml={['22px', '42px', '62px', '82px', '100px']}
           mr={['38px', '52px', '62px', '30px', '30px']}
-          gap={['15px', '30px', '50px', '70px', '100px']}
-          fontSize={['14px', '16px', '18px', '20px', '25px']}
+          gap={['18px', '28px', '35px', '50px', '80px']}
+          fontSize={['16px', '18px', '20px', '23px', '25px']}
         >
           <Text>
             “История вашей любви” — необыкновенное путешествие во времени и
@@ -47,17 +47,13 @@ export const Description = () => {
           </Text>
         </Flex>
         <Flex
-          mt={['14px', '16px', '19px', '21px', '25px']}
+          mt={['14px', '23px', '30px', '40px', '50px']}
           w='100%'
           backgroundImage={DescriptionPage}
           backgroundSize='cover'
           backgroundPosition='50% 50%'
           h={['360px', '455px', '550px', '640px', '725px']}
-          alignItems='flex-end'
-          justifyContent='center'
-        >
-          {!isLargerThan992 && <ButtonBuy />}
-        </Flex>
+        />
       </Flex>
     </Flex>
   );

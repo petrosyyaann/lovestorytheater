@@ -20,6 +20,7 @@ export const ButtonBuy = () => {
         color='black'
         w='100%'
         h='100%'
+        fontWeight={700}
         _hover={{
           backgroundClip: 'text',
           bgGradient: 'linear-gradient(90deg, #B67D3A -3.44%, #FFF 100%)',

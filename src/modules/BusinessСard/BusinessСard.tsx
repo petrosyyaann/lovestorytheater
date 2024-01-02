@@ -1,23 +1,21 @@
-import { Center, Flex, Heading, Text } from '@chakra-ui/react';
+import { Center, Flex, Text } from '@chakra-ui/react';
 import MainPage from '../../../public/assets/MainPage.png';
 import { ButtonBuy } from 'components/ButtonBuy';
 
 export const BusinessСard = () => {
   return (
     <Center w='100%' flexDirection='column'>
-      <Heading
+      <Text
+        fontFamily='Calypso'
         id='businesscard'
-        fontSize={['20px', '30px', '45px', '55px', '75px']}
+        fontSize={['24px', '30px', '45px', '55px', '75px']}
         bgGradient='linear-gradient(90deg, #B67D3A -3.44%, #FFF 100%)'
         w='fit-content'
         bgClip='text'
       >
         ИСТОРИЯ ВАШЕЙ ЛЮБВИ
-      </Heading>
-      <Text
-        fontWeight={600}
-        fontSize={['15px', '18px', '20px', '25px', '30px']}
-      >
+      </Text>
+      <Text fontSize={['16px', '18px', '20px', '25px', '30px']}>
         Иммерсивный спектакль
       </Text>
       <Flex
@@ -26,7 +24,7 @@ export const BusinessСard = () => {
         backgroundImage={MainPage}
         backgroundSize='cover'
         backgroundPosition='50% 50%'
-        h={['360px', '455px', '550px', '640px', '725px']}
+        h={['80vh', '75vh', '70vh', '70vh', '65vh']}
         alignItems='flex-end'
         justifyContent='center'
       >

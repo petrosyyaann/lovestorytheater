@@ -1,4 +1,4 @@
-import { Flex, Heading, Text, useMediaQuery } from '@chakra-ui/react';
+import { Flex, Text, useMediaQuery } from '@chakra-ui/react';
 import MenuAnchor from 'modules/MenuAnchor/MenuAnchor';
 import { MenuDrawer } from 'modules/MenuDrawer/MenuDrawer';
 
@@ -13,12 +13,9 @@ const Header = () => {
       px={['14px', '18px', '30px', '35px', '40px']}
       pb={['20px', '30px', '40px', '60px', '70px']}
     >
-      <Heading
-        fontSize={['14px', '18px', '20px', '22px', '25px']}
-        color='white'
-      >
+      <Text fontSize={['14px', '18px', '20px', '22px', '25px']} color='white' fontFamily='Calypso'>
         “Он и она”
-      </Heading>
+      </Text>
       {isLargerThan900 ? <MenuAnchor /> : <MenuDrawer />}
     </Flex>
   );
