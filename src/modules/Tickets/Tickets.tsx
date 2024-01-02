@@ -81,7 +81,7 @@ export const Tickets = () => {
           />
         </Flex>
       </Flex>
-      <Flex py='50px' w='100%' justifyContent='center'>
+      <Flex pb='50px' w='100%' justifyContent='center'>
         {!isLargerThan992 && <ButtonBuy />}
       </Flex>
     </Flex>
