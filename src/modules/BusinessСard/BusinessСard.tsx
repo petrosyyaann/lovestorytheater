@@ -8,7 +8,7 @@ export const BusinessСard = () => {
       <Text
         fontFamily='Calypso'
         id='businesscard'
-        fontSize={['24px', '30px', '45px', '55px', '75px']}
+        fontSize={['22px', '30px', '45px', '55px', '75px']}
         bgGradient='linear-gradient(90deg, #B67D3A -3.44%, #FFF 100%)'
         w='fit-content'
         bgClip='text'
