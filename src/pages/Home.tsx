@@ -8,7 +8,7 @@ const Home = () => (
     <BusinessСard />
     <Description />
     <Tickets />
-    <Divider color='#444444' />
+    <Flex h={['1px', '1px', '1px', '2px', '2px']} bg='#444444' w='100%' />
   </Flex>
 );
 

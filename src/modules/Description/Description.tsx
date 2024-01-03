@@ -6,7 +6,7 @@ export const Description = () => {
   return (
     <Flex
       w='100%'
-      mt={['14px', '23px', '30px', '40px', '50px']}
+      mt={['14px', '23px', '27px', '35px', '40px']}
       direction='column'
     >
       <Text
@@ -20,7 +20,10 @@ export const Description = () => {
       >
         О спектакле
       </Text>
-      <Flex direction={['column', 'column', 'column', 'row', 'row']}>
+      <Flex
+        mt={['14px', '23px', '27px', '35px', '40px']}
+        direction={['column', 'column', 'column', 'row', 'row']}
+      >
         <Flex
           direction='column'
           justifyContent='center'
@@ -44,7 +47,7 @@ export const Description = () => {
           </Text>
         </Flex>
         <Flex
-          mt={['14px', '23px', '30px', '40px', '50px']}
+          mt={['14px', '23px', '27px', '35px', '40px']}
           w='100%'
           backgroundImage={DescriptionPage}
           backgroundSize='cover'
