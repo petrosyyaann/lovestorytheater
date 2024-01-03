@@ -8,7 +8,7 @@ export const Page404 = () => {
         <Text fontFamily='Calypso'>404</Text>
         <Text>Страница не найдена</Text>
         <Button as={Link} to='/' colorScheme='gray'>
-          Перейти на главную страницу
+          Перезагрузить
         </Button>
       </Stack>
     </Center>
