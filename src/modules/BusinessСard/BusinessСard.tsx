@@ -24,7 +24,7 @@ export const BusinessСard = () => {
         backgroundImage={MainPage}
         backgroundSize='cover'
         backgroundPosition='50% 50%'
-        h={['80vh', '75vh', '70vh', '70vh', '65vh']}
+        h={['80svh', '75svh', '70svh', '70svh', '65svh']}
         alignItems='flex-end'
         justifyContent='center'
       >
