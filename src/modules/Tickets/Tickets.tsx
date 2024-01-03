@@ -44,7 +44,7 @@ export const Tickets = () => {
             Однако, если вы оказались здесь, значит это то, что вам нужно именно
             сейчас.
           </Text>
-          {isLargerThan992 && <ButtonBuy />}
+          {isLargerThan992 && <ButtonBuy mb={35} />}
         </Flex>
 
         <Flex
@@ -81,7 +81,11 @@ export const Tickets = () => {
           />
         </Flex>
       </Flex>
-      <Flex pb='50px' w='100%' justifyContent='center'>
+      <Flex
+        pb={['20px', '33px', '47px', '0', '15px']}
+        w='100%'
+        justifyContent='center'
+      >
         {!isLargerThan992 && <ButtonBuy />}
       </Flex>
     </Flex>

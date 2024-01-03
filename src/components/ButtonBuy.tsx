@@ -1,10 +1,10 @@
 import { Flex, Center } from '@chakra-ui/react';
 
-export const ButtonBuy = () => {
+export const ButtonBuy = ({ mb }: { mb?: number }) => {
   return (
     <Flex
+      mb={`${mb}px`}
       background='white'
-      mb={['35px', '35px', '35px', '35px', '35px']}
       fontSize={['14px', '19px', '24px', '26px', '34px']}
       w={['200px', '210px', '265px', '275px', '385px']}
       h={['45px', '50px', '65px', '60px', '90px']}
