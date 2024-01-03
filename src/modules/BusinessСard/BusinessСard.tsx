@@ -28,7 +28,7 @@ export const BusinessСard = () => {
         alignItems='flex-end'
         justifyContent='center'
       >
-        <ButtonBuy mb={35} />
+        <ButtonBuy mb={['20svh', '100px', '80px', '50px', '35px']} />
       </Flex>
     </Center>
   );
