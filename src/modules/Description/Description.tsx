@@ -20,10 +20,7 @@ export const Description = () => {
       >
         О спектакле
       </Text>
-      <Flex
-        direction={['column', 'column', 'column', 'row', 'row']}
-        gap={['22px', '35px', '0px', '0px', '0px']}
-      >
+      <Flex direction={['column', 'column', 'column', 'row', 'row']}>
         <Flex
           direction='column'
           justifyContent='center'

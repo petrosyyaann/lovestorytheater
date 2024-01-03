@@ -8,7 +8,7 @@ const Footer = () => {
       direction='column'
       alignItems={isLargerThan992 ? '' : 'center'}
       py={['20px', '33px', '47px', '60px', '75px']}
-      pl={['0', '42px', '62px', '82px', '100px']}
+      pl={['0', '0', '0', '82px', '100px']}
       gap={['11px', '17px', '23px', '29px', '35px']}
     >
       <Text
@@ -49,6 +49,7 @@ const Footer = () => {
           direction='column'
           gap={['9px', '16px', '23px', '30px', '38px']}
           pt={['9px', '16px', '23px', '0', '0']}
+          fontSize={['14px', '16px', '18px', '24px', '25px']}
         >
           <Text>Политика конфиденциальности</Text>
           <Text>Договор оферты</Text>
