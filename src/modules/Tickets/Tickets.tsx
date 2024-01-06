@@ -1,5 +1,5 @@
 import { Flex, Text, useMediaQuery, Image } from '@chakra-ui/react';
-import { ButtonBuy } from 'components/ButtonBuy';
+import { ButtonBuy } from 'components/ButtonBuy/ButtonBuy';
 import Ticket from '../../../public/assets/Ticket.svg';
 import TwoTickets from '../../../public/assets/TwoTickets.svg';
 
