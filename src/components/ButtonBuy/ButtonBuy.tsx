@@ -6,8 +6,8 @@ export const ButtonBuy = ({ mb }: { mb?: string | Array<string> }) => {
       mb={mb}
       background='white'
       fontSize={['18px', '20px', '24px', '26px', '34px']}
-      w={['190px', '200px', '265px', '275px', '385px']}
-      h={['45px', '50px', '65px', '60px', '90px']}
+      w={['190px', '200px', '255px', '265px', '300px']}
+      h={['45px', '50px', '55px', '65px', '70px']}
       _hover={{
         borderWidth: '2px',
         borderStyle: 'solid',
