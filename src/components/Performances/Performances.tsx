@@ -9,7 +9,13 @@ const Performances = ({ performances }: { performances: IPerformance[] }) => {
   const [isLargerThan992] = useMediaQuery('(min-width: 992px)');
   const [currentSlide, setCurrentSlide] = useState(0);
   return !isLargerThan992 ? (
-    <Flex direction='column' w='100%' padding='30px'>
+    <Flex
+      direction='column'
+      w='100%'
+      padding='30px'
+      gap='5px'
+      bg='linear-gradient(180deg, rgba(0, 0, 0, 0.01) 0%, rgba(0, 0, 0, 0.30) 25%, rgba(0, 0, 0, 0.25) 50%, rgba(0, 0, 0, 0.18) 75%, rgba(0, 0, 0, 0.01) 100%);'
+    >
       {performances.map((performance) => (
         <Flex
           key={performance.play}
