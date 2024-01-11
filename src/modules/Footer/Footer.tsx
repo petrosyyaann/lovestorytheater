@@ -7,7 +7,7 @@ const Footer = () => {
       id='contacts'
       direction='column'
       alignItems={isLargerThan992 ? '' : 'center'}
-      py={['20px', '33px', '47px', '60px', '75px']}
+      py={['37px', '63px', '91px', '60px', '75px']}
       pl={['0', '0', '0', '82px', '100px']}
       gap={['11px', '17px', '23px', '29px', '35px']}
     >
@@ -20,9 +20,9 @@ const Footer = () => {
       >
         Контакты
       </Text>
-      <Text color='#787878' fontSize={['16px', '18px', '23px', '29px', '35px']}>
+      {/* <Text color='#787878' fontSize={['16px', '18px', '23px', '29px', '35px']}>
         почта и телефон
-      </Text>
+      </Text> */}
       <Flex
         gap={['16px', '35px', '50px', '40px', '90px']}
         direction={isLargerThan992 ? 'row' : 'column'}

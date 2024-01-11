@@ -24,7 +24,6 @@ export const Tickets = () => {
       <Flex
         justifyContent='center'
         direction={['column', 'column', 'column', 'row-reverse', 'row-reverse']}
-        gap={['22px', '35px', '0px', '0px', '0px']}
         mt={['14px', '23px', '27px', '35px', '40px']}
       >
         <Flex
@@ -63,7 +62,7 @@ export const Tickets = () => {
         </Flex>
       </Flex>
       <Flex
-        pb={['20px', '33px', '47px', '0', '15px']}
+        pb={['40px', '66px', '94px', '60px', '75px']}
         w='100%'
         justifyContent='center'
       >
