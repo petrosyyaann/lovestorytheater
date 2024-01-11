@@ -20,6 +20,9 @@ const Fonts = () => (
       p, h1, h2, a {
         color: #ffffff;
       }
+      span {
+        color: #C08F55;
+      }
       html {
         background-color: #090A0B;
         scroll-behavior: smooth;

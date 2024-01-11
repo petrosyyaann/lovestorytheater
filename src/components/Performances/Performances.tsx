@@ -33,11 +33,10 @@ const Performances = ({ performances }: { performances: IPerformance[] }) => {
     <Flex h='100%' w='100%' justifyContent='space-between' direction='column'>
       <Flex w='50vw' wrap='wrap' padding='15px' gap='15px'>
         {performances.map((performance, id) => (
-          <Flex gap='15px'>
-            <Text fontSize='43px'>/</Text>
+          <Flex gap='15px' fontSize={['0px', '0px', '0px', '35px', '40px']}>
+            <Text>/</Text>
             <Text
               key={performance.play}
-              fontSize='43px'
               onClick={() => setCurrentSlide(id)}
               className='link-slide'
             >
@@ -55,10 +54,10 @@ const Performances = ({ performances }: { performances: IPerformance[] }) => {
           className='tetx-slide'
         >
           <Flex direction='column' alignItems='flex-start'>
-            <Text fontSize={['0px', '0px', '0px', '50px', '65px']}>
+            <Text fontSize={['0px', '0px', '0px', '40px', '55px']}>
               {performances[currentSlide].data}
             </Text>
-            <Text fontSize={['0px', '0px', '0px', '70px', '85px']}>
+            <Text fontSize={['0px', '0px', '0px', '60px', '75px']}>
               {performances[currentSlide].play}
             </Text>
             <ButtonBuy mb={['0px', '0px', '0px', '60px', '45px']} />

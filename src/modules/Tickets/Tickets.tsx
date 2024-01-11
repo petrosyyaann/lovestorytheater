@@ -1,6 +1,5 @@
 import { Flex, Text, useMediaQuery, Image } from '@chakra-ui/react';
 import { ButtonBuy } from 'components/ButtonBuy/ButtonBuy';
-import Ticket from '../../../public/assets/Ticket.svg';
 import TwoTickets from '../../../public/assets/TwoTickets.svg';
 
 export const Tickets = () => {
@@ -38,42 +37,24 @@ export const Tickets = () => {
           fontSize={['16px', '18px', '20px', '23px', '25px']}
           textAlign={isLargerThan992 ? 'center' : 'left'}
           pr={['0', '0', '0', '30px', '50px']}
+          maxW='700px'
         >
-          <Text>У вас могут быть сотни причин прийти или не прийти сюда.</Text>
           <Text>
-            Однако, если вы оказались здесь, значит это то, что вам нужно именно
-            сейчас.
+            <span>Программа спектакля</span> рассчитана на уникальный опыт
+            познания себя и своей пары, погружение в историю и нахождение в ней
+            ответов на ваши вопросы.
+          </Text>
+          <Text>
+            <span>Не бойтесь</span> окунуться в новый мир чувств и признаний.
           </Text>
           {isLargerThan992 && <ButtonBuy mb='35px' />}
         </Flex>
-
         <Flex
           direction='column'
           w='100%'
           maxW='1300px'
           p={['40px', '60px', '80px', '60px', '80px']}
         >
-          {/* <Image zIndex={2} src={Ticket} />
-          <Image
-            mt={['-13px', '-22px', '-23px', '-24px', '-25px']}
-            transform='rotate(12deg)'
-            src={Ticket}
-          /> */}
-          {/* <>
-              <object
-                style={{ zIndex: 2 }}
-                type='image/svg+xml'
-                data={Ticket}
-              />
-              <object
-                style={{
-                  transform: 'rotate(12deg)',
-                  marginTop: isLargerThan800 ? '-23px' : '-190px',
-                }}
-                type='image/svg+xml'
-                data={Ticket}
-              />
-            </> */}
           <object
             style={{ zIndex: 2, width: '100%', height: '100%' }}
             type='image/svg+xml'

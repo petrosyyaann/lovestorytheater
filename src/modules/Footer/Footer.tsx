@@ -33,17 +33,17 @@ const Footer = () => {
           direction='column'
           gap={['9px', '16px', '23px', '30px', '38px']}
         >
-          <Text>+ 8(915)-149-44-46</Text>
-          <Text>Sazykin_egoriy@mail.ru</Text>
+          {/* <Text>+ 8(915)-149-44-46</Text> */}
+          <Text>lovestorytheater@mail.ru</Text>
         </Flex>
-        <Flex
+        {/* <Flex
           alignItems={!isLargerThan992 ? 'center' : ''}
           direction='column'
           gap={['9px', '16px', '23px', '30px', '38px']}
         >
           <Text>+ 8(980)-168-33-55</Text>
           <Text>88kontora@gmail.com</Text>
-        </Flex>
+        </Flex> */}
         <Flex
           alignItems={!isLargerThan992 ? 'center' : ''}
           direction='column'
