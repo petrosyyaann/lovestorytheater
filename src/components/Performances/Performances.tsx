@@ -46,29 +46,25 @@ const Performances = ({ performances }: { performances: IPerformance[] }) => {
         ))}
       </Flex>
       <Flex alignItems='center' mr={['0px', '0px', '0px', '30px', '37px']}>
-        <Flex
-          gap='15px'
-          direction='column'
-          w='100%'
-          ml='40vw'
-          className='tetx-slide'
-        >
-          <Flex direction='column' alignItems='flex-start'>
-            <Text fontSize={['0px', '0px', '0px', '40px', '55px']}>
-              {performances[currentSlide].data}
-            </Text>
-            <Text fontSize={['0px', '0px', '0px', '60px', '75px']}>
-              {performances[currentSlide].play}
-            </Text>
-            <ButtonBuy mb={['0px', '0px', '0px', '60px', '45px']} />
+        <Flex gap='15px' direction='column' w='100%' ml='40vw'>
+          <Flex w='100%' alignItems='center'>
+            <Flex gap='15px' direction='column' w='100%'>
+              <Text fontSize={['0px', '0px', '0px', '40px', '55px']}>
+                {performances[currentSlide].data}
+              </Text>
+              <Text fontSize={['0px', '0px', '0px', '60px', '75px']}>
+                {performances[currentSlide].play}
+              </Text>
+            </Flex>
+            <ArrowIcon
+              className='button-slide'
+              onClick={() =>
+                setCurrentSlide((currentSlide + 1) % performances.length)
+              }
+            />
           </Flex>
+          <ButtonBuy mb={['0px', '0px', '0px', '60px', '45px']} />
         </Flex>
-        <ArrowIcon
-          className='button-slide'
-          onClick={() =>
-            setCurrentSlide((currentSlide + 1) % performances.length)
-          }
-        />
       </Flex>
     </Flex>
   );
