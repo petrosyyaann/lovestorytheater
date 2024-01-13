@@ -1,9 +1,10 @@
 import { Flex, Text, useMediaQuery } from '@chakra-ui/react';
 import { IPerformance } from 'ui/types/Performance';
 import { ButtonBuy } from '../ButtonBuy/ButtonBuy';
-import { ArrowIcon } from 'ui/iconpack/ArrowIcon';
+
 import { useState } from 'react';
 import './Performances.css';
+import { ArrowIcon } from 'ui/iconpack';
 
 const Performances = ({ performances }: { performances: IPerformance[] }) => {
   const [isLargerThan992] = useMediaQuery('(min-width: 992px)');

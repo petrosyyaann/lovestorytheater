@@ -1,4 +1,5 @@
-import { Flex, Text, useMediaQuery } from '@chakra-ui/react';
+import { Flex, IconButton, Text, useMediaQuery } from '@chakra-ui/react';
+import { InstagramIcon, TelegramIcon, WhatsappIcon } from 'ui/iconpack';
 
 const Footer = () => {
   const [isLargerThan992] = useMediaQuery('(min-width: 992px)');
@@ -26,15 +27,38 @@ const Footer = () => {
       <Flex
         gap={['16px', '35px', '50px', '40px', '90px']}
         direction={isLargerThan992 ? 'row' : 'column'}
-        fontSize={['18px', '20px', '22px', '24px', '25px']}
+        fontSize={['15px', '16px', '18px', '24px', '30px']}
       >
         <Flex
           alignItems={!isLargerThan992 ? 'center' : ''}
           direction='column'
           gap={['9px', '16px', '23px', '30px', '38px']}
         >
-          {/* <Text>+ 8(915)-149-44-46</Text> */}
           <Text>lovestorytheater@mail.ru</Text>
+          <Flex gap={['10px', '12px', '13px', '14px', '15px']}>
+            <IconButton
+              variant='ghost'
+              aria-label='Telegram'
+              icon={<TelegramIcon />}
+              _hover={{ background: 'transparent' }}
+            />
+            <IconButton
+              variant='ghost'
+              aria-label='Instagram'
+              icon={<InstagramIcon />}
+              onClick={() =>
+                (window.location.href =
+                  'https://www.instagram.com/lovestorytheatre/?igsh=OGQ5Z')
+              }
+              _hover={{ background: 'transparent' }}
+            />
+            <IconButton
+              variant='ghost'
+              aria-label='Whatsapp'
+              icon={<WhatsappIcon />}
+              _hover={{ background: 'transparent' }}
+            />
+          </Flex>
         </Flex>
         {/* <Flex
           alignItems={!isLargerThan992 ? 'center' : ''}
@@ -49,7 +73,7 @@ const Footer = () => {
           direction='column'
           gap={['9px', '16px', '23px', '30px', '38px']}
           pt={['9px', '16px', '23px', '0', '0']}
-          fontSize={['14px', '16px', '18px', '24px', '25px']}
+          fontSize={['10px', '14px', '18px', '23px', '25px']}
         >
           <Text>Политика конфиденциальности</Text>
           <Text>Договор оферты</Text>

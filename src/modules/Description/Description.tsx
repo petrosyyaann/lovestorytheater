@@ -27,6 +27,7 @@ export const Description = () => {
         <Flex
           direction='column'
           justifyContent='center'
+          h='100%'
           ml={['22px', '42px', '62px', '82px', '100px']}
           mr={['38px', '52px', '62px', '30px', '30px']}
           gap={['14px', '25px', '30px', '35px', '40px']}
