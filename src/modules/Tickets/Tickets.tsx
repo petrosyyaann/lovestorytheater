@@ -30,13 +30,13 @@ export const Tickets = () => {
           direction='column'
           justifyContent='center'
           alignItems={isLargerThan992 ? 'center' : 'left'}
-          ml={['22px', '42px', '62px', '40px', '70px']}
+          ml={['22px', '42px', '62px', '0px', '0px']}
           mr={['38px', '42px', '52px', '0px', '0px']}
           gap={['18px', '28px', '35px', '50px', '80px']}
           fontSize={['16px', '18px', '20px', '23px', '25px']}
           textAlign={isLargerThan992 ? 'center' : 'left'}
           pr={['0', '0', '0', '30px', '50px']}
-          maxW='700px'
+          maxW='600px'
         >
           <Text>
             <span>Программа спектакля</span> рассчитана на уникальный опыт
@@ -52,7 +52,7 @@ export const Tickets = () => {
           direction='column'
           w='100%'
           maxW='1300px'
-          p={['40px', '60px', '80px', '60px', '80px']}
+          p={['40px', '60px', '80px', '20px', '50px']}
         >
           <object
             style={{ zIndex: 2, width: '100%', height: '100%' }}
