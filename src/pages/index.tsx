@@ -13,7 +13,7 @@ export const Pages = () => {
     <Layout>
       <Header />
       <Routes>
-        <Route path='/lovestorytheater' element={<HomePage />} />
+        <Route path='/' element={<HomePage />} />
         <Route path='*' element={<Page404 />} />
       </Routes>
       <Footer />
