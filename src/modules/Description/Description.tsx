@@ -32,9 +32,10 @@ export const Description = () => {
           mr={['38px', '52px', '62px', '30px', '30px']}
           gap={['14px', '25px', '30px', '35px', '40px']}
           fontSize={['16px', '18px', '20px', '23px', '25px']}
+          w='100vw'
         >
           <Text>
-            <span style={{ fontWeight: 700, color: '#C08F55' }}>
+            <span style={{ fontWeight: 500, color: '#C08F55' }}>
               “История вашей любви”
             </span>
             — необыкновенное путешествие во времени и пространстве.
@@ -47,7 +48,7 @@ export const Description = () => {
             Проведите вечер, погрузившись в историю первой пары на земле.
           </Text>
           <Text>
-            <span style={{ fontWeight: 700, color: '#C08F55' }}>
+            <span style={{ fontWeight: 500, color: '#C08F55' }}>
               Станьте ей на время
             </span>
             , чтобы больше понять про себя и про вашу вторую половинку.
@@ -57,7 +58,7 @@ export const Description = () => {
             историей и принять правила игры.
           </Text>
           <Text>
-            <span style={{ fontWeight: 700, color: '#C08F55' }}>
+            <span style={{ fontWeight: 500, color: '#C08F55' }}>
               Участвуйте в истории
             </span>
             , пересоздавая и укрепляя свои отношения.
@@ -70,7 +71,7 @@ export const Description = () => {
           backgroundImage={DescriptionPage}
           backgroundSize='cover'
           backgroundPosition='50% 50%'
-          h={['310px', '410px', '550px', '660px', '750px']}
+          h={['300px', '370px', '510px', '630px', '730px']}
         />
       </Flex>
     </Flex>
