@@ -33,7 +33,8 @@ const Footer = () => {
         <Flex
           alignItems={!isLargerThan992 ? 'center' : ''}
           direction='column'
-          gap={['12px', '15px', '20px', '25px', '30px']}
+          justifyContent='space-between'
+          gap={['12px', '15px', '20px', 'unset', 'unset']}
         >
           <Text>lovestorytheater@mail.ru</Text>
           <Flex gap={['10px', '12px', '13px', '14px', '15px']}>
@@ -64,7 +65,8 @@ const Footer = () => {
         <Flex
           alignItems={!isLargerThan992 ? 'center' : ''}
           direction='column'
-          gap={['12px', '15px', '20px', '25px', '30px']}
+          gap={['12px', '15px', '20px', 'unset', 'unset']}
+          justifyContent='space-between'
           fontSize={['10px', '14px', '18px', '23px', '25px']}
         >
           <Text>Политика конфиденциальности</Text>

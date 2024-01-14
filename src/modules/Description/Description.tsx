@@ -32,7 +32,6 @@ export const Description = () => {
           mr={['38px', '52px', '62px', '30px', '30px']}
           gap={['14px', '25px', '30px', '35px', '40px']}
           fontSize={['16px', '18px', '20px', '23px', '25px']}
-          w='100vw'
         >
           <Text>
             <span style={{ fontWeight: 500, color: '#C08F55' }}>
@@ -66,7 +65,7 @@ export const Description = () => {
         </Flex>
         <Flex
           mt={['14px', '23px', '27px', '0px', '0px']}
-          mr={['0', '0', '0', '90px', '110px']}
+          mr={['0px', '0px', '0px', '90px', '110px']}
           w='100%'
           backgroundImage={DescriptionPage}
           backgroundSize='cover'
