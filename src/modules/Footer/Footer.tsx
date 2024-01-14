@@ -21,18 +21,19 @@ const Footer = () => {
       >
         Контакты
       </Text>
-      {/* <Text color='#787878' fontSize={['16px', '18px', '23px', '29px', '35px']}>
+      <Text color='#787878' fontSize={['16px', '18px', '23px', '29px', '35px']}>
         почта и телефон
-      </Text> */}
+      </Text>
       <Flex
         gap={['16px', '35px', '50px', '40px', '90px']}
         direction={isLargerThan992 ? 'row' : 'column'}
         fontSize={['15px', '16px', '18px', '24px', '30px']}
+        h={['100px', '100px', '90px', '100px', '110px']}
       >
         <Flex
           alignItems={!isLargerThan992 ? 'center' : ''}
           direction='column'
-          gap={['9px', '16px', '23px', '30px', '38px']}
+          gap={['12px', '15px', '20px', '25px', '30px']}
         >
           <Text>lovestorytheater@mail.ru</Text>
           <Flex gap={['10px', '12px', '13px', '14px', '15px']}>
@@ -60,19 +61,10 @@ const Footer = () => {
             />
           </Flex>
         </Flex>
-        {/* <Flex
-          alignItems={!isLargerThan992 ? 'center' : ''}
-          direction='column'
-          gap={['9px', '16px', '23px', '30px', '38px']}
-        >
-          <Text>+ 8(980)-168-33-55</Text>
-          <Text>88kontora@gmail.com</Text>
-        </Flex> */}
         <Flex
           alignItems={!isLargerThan992 ? 'center' : ''}
           direction='column'
-          gap={['9px', '16px', '23px', '30px', '38px']}
-          pt={['9px', '16px', '23px', '0', '0']}
+          gap={['12px', '15px', '20px', '25px', '30px']}
           fontSize={['10px', '14px', '18px', '23px', '25px']}
         >
           <Text>Политика конфиденциальности</Text>
