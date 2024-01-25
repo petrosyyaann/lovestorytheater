@@ -6,18 +6,19 @@ export const Quote = ({ text, author }: IQuote) => {
   return (
     <Flex
       direction='column'
+      w='fit-content'
       alignItems={isLargerThan1350 ? 'flex-end' : 'center'}
-      w={['300px', '400px', '500px', '600px', '1300px']}
-      mt={['20px', '26px', '31px', '37px', '43px']}
+      px={isLargerThan1350 ? '30px' : '0'}
     >
       <Text
-        fontSize={['20px', '27px', '35px', '42px', '50px']}
+        mt='20px'
         pr={isLargerThan1350 ? '50px' : '0'}
-        textAlign={isLargerThan1350 ? undefined : 'center'}
+        fontSize={['25px', '32px', '37px', '42px', '50px']}
+        textAlign='center'
       >
         {text}
       </Text>
-      <Text fontSize={['17px', '22px', '27px', '32px', '38px']}>{author}</Text>
+      <Text fontSize={['20px', '25px', '30px', '32px', '38px']}>{author}</Text>
     </Flex>
   );
 };

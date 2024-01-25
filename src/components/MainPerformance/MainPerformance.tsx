@@ -5,7 +5,6 @@ export const MainPerformance = () => {
   return (
     <Flex
       direction='column'
-      h='100%'
       w='100%'
       alignItems='center'
       justifyContent='flex-end'
@@ -15,13 +14,13 @@ export const MainPerformance = () => {
           position='relative'
           top={['5px', '8px', '11px', '14px', '20px']}
           zIndex='1'
-          fontSize={['28px', '35px', '55px', '70px', '90px']}
+          fontSize={['35px', '45px', '55px', '60px', '75px']}
         >
           13.02
         </Text>
         <Text
           position='relative'
-          fontSize={['40px', '55px', '70px', '85px', '100px']}
+          fontSize={['55px', '65px', '70px', '75px', '89px']}
           bgGradient='linear-gradient(90deg, #B67D3A -3.44%, #FFF 100%)'
           w='fit-content'
           bgClip='text'
