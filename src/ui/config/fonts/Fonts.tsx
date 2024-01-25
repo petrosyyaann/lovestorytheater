@@ -1,6 +1,6 @@
 import { Global } from '@emotion/react';
-import Cormorant from '../../../../public/fonts/Cormorant.woff2';
-import Calypso from '../../../../public/fonts/Calypso.woff2';
+import Cormorant from '/fonts/Cormorant.woff2';
+import Calypso from '/fonts/Calypso.woff2';
 
 const Fonts = () => (
   <Global

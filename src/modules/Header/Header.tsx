@@ -8,18 +8,11 @@ const Header = () => {
     <Flex
       w='100%'
       alignItems='center'
-      justifyContent='space-between'
+      justifyContent='flex-end'
       pt={['15px', '18px', '21px', '25px', '30px']}
       px={['14px', '18px', '30px', '35px', '40px']}
       pb={['20px', '30px', '35px', '40px', '50px']}
     >
-      <Text
-        fontSize={['14px', '18px', '20px', '22px', '25px']}
-        color='white'
-        fontFamily='Calypso'
-      >
-        “Он и она”
-      </Text>
       {isLargerThan900 ? <MenuAnchor /> : <MenuDrawer />}
     </Flex>
   );
