@@ -64,7 +64,7 @@ export const Description = () => {
           </Text>
         </Flex>
         <Flex
-          mt={['14px', '23px', '27px', '0px', '0px']}
+          mt={['14px', '23px', '27px', '10px', '10px']}
           mr={['0px', '0px', '0px', '90px', '110px']}
           w='100%'
           backgroundImage={DescriptionPage}
