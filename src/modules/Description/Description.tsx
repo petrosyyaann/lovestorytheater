@@ -11,7 +11,7 @@ export const Description = () => {
     >
       <Text
         fontFamily='Calypso'
-        ml={['0px', '0px', '0px', '82px', '100px']}
+        ml={['22px', '42px', '62px', '82px', '100px']}
         fontSize={['24px', '30px', '45px', '55px', '75px']}
         bgGradient='linear(to-r, #B67D3A, #FFFFFF)'
         w='fit-content'

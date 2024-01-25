@@ -8,7 +8,7 @@ export const BusinessСard = () => {
     <Center w='100%' flexDirection='column'>
       <Text
         fontFamily='Calypso'
-        fontSize={['25px', '33px', '55px', '70px', '90px']}
+        fontSize={['22px', '33px', '55px', '70px', '90px']}
         bgGradient='linear-gradient(90deg, #B67D3A -3.44%, #FFF 100%)'
         w='fit-content'
         bgClip='text'
