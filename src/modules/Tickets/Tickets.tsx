@@ -1,4 +1,4 @@
-import { Flex, Text, useMediaQuery, Image } from '@chakra-ui/react';
+import { Flex, Spacer, Text, useMediaQuery } from '@chakra-ui/react';
 import { ButtonBuy } from 'components/ButtonBuy/ButtonBuy';
 import TwoTickets from '/assets/TwoTickets.svg';
 
@@ -62,15 +62,20 @@ export const Tickets = () => {
           direction='column'
           w='100%'
           maxW='1000px'
-          p={['40px', '60px', '80px', '20px', '50px']}
+          h={['50svh', '100%', '100%', '100%', '100%']}
+          p={['40px', '60px', '70px', '40px', '50px']}
           alignItems='center'
         >
           <object
-            style={{ width: '100%' }}
+            style={{ zIndex: 2, width: '100%', height: '100%' }}
             type='image/svg+xml'
             data={TwoTickets}
           />
-          {isLargerThan992 && <ButtonBuy mb='35px' />}
+          {isLargerThan992 && (
+            <Flex pt='40px' h='100%'>
+              <ButtonBuy />
+            </Flex>
+          )}
         </Flex>
       </Flex>
       <Flex
