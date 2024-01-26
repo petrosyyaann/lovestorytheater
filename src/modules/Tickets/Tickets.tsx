@@ -66,7 +66,11 @@ export const Tickets = () => {
           alignItems='center'
         >
           <object
-            style={{ zIndex: 2, width: '100%', height: '100%' }}
+            style={{
+              zIndex: 2,
+              width: '100%',
+              height: isLargerThan992 ? '100%' : '60%',
+            }}
             type='image/svg+xml'
             data={TwoTickets}
           />

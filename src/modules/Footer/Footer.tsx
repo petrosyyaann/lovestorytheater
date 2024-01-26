@@ -21,9 +21,9 @@ const Footer = () => {
       >
         Контакты
       </Text>
-      <Text color='#787878' fontSize={['16px', '18px', '23px', '29px', '35px']}>
+      {/* <Text color='#787878' fontSize={['16px', '18px', '23px', '29px', '35px']}>
         почта и телефон
-      </Text>
+      </Text> */}
       <Flex
         gap={['16px', '35px', '50px', '40px', '90px']}
         direction={isLargerThan992 ? 'row' : 'column'}
@@ -66,8 +66,8 @@ const Footer = () => {
           alignItems={!isLargerThan992 ? 'center' : ''}
           direction='column'
           gap={['12px', '15px', '20px', 'unset', 'unset']}
+          pb={['37px', '63px', '91px', '0px', '0px']}
           justifyContent='space-between'
-          fontSize={['10px', '14px', '18px', '23px', '25px']}
         >
           <Text>Политика конфиденциальности</Text>
           <Text>Договор оферты</Text>
