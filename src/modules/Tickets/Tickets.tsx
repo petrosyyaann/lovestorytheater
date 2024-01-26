@@ -37,6 +37,7 @@ export const Tickets = () => {
           textAlign='left'
           pr={['0', '0', '0', '30px', '50px']}
           maxW='600px'
+          pb={['40px', '0px', '0px', '0px', '0px']}
         >
           <Text>
             <span style={{ fontWeight: 500, color: '#C08F55' }}>
@@ -62,15 +63,12 @@ export const Tickets = () => {
           direction='column'
           w='100%'
           maxW='1000px'
-          p={['40px', '60px', '80px', '20px', '50px']}
+          p={['0px', '60px', '80px', '20px', '50px']}
+          px={['40px', '0px', '0px', '0px', '0px']}
           alignItems='center'
         >
           <object
-            style={{
-              zIndex: 2,
-              width: '100%',
-              height: isLargerThan992 ? '100%' : '60%',
-            }}
+            style={{ zIndex: 2, width: '100%', height: '100%' }}
             type='image/svg+xml'
             data={TwoTickets}
           />
@@ -78,6 +76,7 @@ export const Tickets = () => {
         </Flex>
       </Flex>
       <Flex
+        pt={['40px', '0px', '0px', '0px', '0px']}
         pb={['40px', '66px', '94px', '60px', '75px']}
         w='100%'
         justifyContent='center'
