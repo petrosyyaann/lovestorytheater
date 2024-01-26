@@ -38,7 +38,7 @@ export const BusinessСard = () => {
       >
         {isLargerThan1280 ? (
           <>
-            <Quote text={quote.text} author={quote.author} />
+            <Quote key={quote.text} text={quote.text} author={quote.author} />
             <Flex w='100%' h='100%'>
               <Flex w='100%' alignItems='flex-start' justifyContent='center'>
                 <Perfomance
@@ -98,7 +98,7 @@ export const BusinessСard = () => {
               />
             </Flex>
             <Flex direction='column' gap='50px'>
-              <Quote text={quote.text} author={quote.author} />
+              <Quote key={quote.text} text={quote.text} author={quote.author} />
               <MainPerformance />
             </Flex>
           </Flex>
