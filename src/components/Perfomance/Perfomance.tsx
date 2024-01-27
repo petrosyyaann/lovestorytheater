@@ -16,6 +16,7 @@ export const Perfomance = ({
       _hover={{
         fontSize: ['27px', '33px', '38px', '33px', '38px'],
       }}
+      lineHeight={['27px', '33px', '38px', '33px', '38px']}
       cursor='pointer'
       transition='all .25s ease'
     >
