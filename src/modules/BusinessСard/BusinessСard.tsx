@@ -33,7 +33,8 @@ export const BusinessСard = () => {
         backgroundImage={`linear-gradient(180deg, rgba(6, 6, 7, 0.40) 0.01%, rgba(9, 10, 11, 0.40) 0.02%, rgba(0, 0, 0, 0.40) 52.5%, rgba(6, 6, 7, 0.11) 99.99%, rgba(9, 10, 11, 0.40) 100%) , url(${MainPage})`}
         backgroundSize='cover'
         backgroundPosition='50% 50%'
-        h={['80svh', '75svh', '70svh', '70svh', '65svh']}
+        h='max-content'
+        minH='max-content'
         alignItems='center'
       >
         {isLargerThan1280 ? (

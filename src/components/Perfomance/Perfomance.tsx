@@ -14,7 +14,7 @@ export const Perfomance = ({
       w='max-content'
       fontSize={['25px', '30px', '35px', '30px', '35px']}
       _hover={{
-        fontSize: ['30px', '35px', '40px', '35px', '40px'],
+        fontSize: ['27px', '33px', '38px', '33px', '38px'],
       }}
       cursor='pointer'
       transition='all .25s ease'
