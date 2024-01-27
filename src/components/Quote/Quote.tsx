@@ -8,7 +8,7 @@ export const Quote = ({ text, author }: IQuote) => {
       direction='column'
       w='fit-content'
       alignItems={isLargerThan1350 ? 'flex-end' : 'center'}
-      px={isLargerThan1350 ? '30px' : '0'}
+      px='30px'
     >
       <Text
         mt='20px'
