@@ -7,7 +7,7 @@ import { useState } from 'react';
 import { IQuote } from 'ui/types/Quote';
 
 export const BusinessСard = () => {
-  const [isLargerThan1280] = useMediaQuery('(min-width: 1280px)');
+  const [isLargerThan1350] = useMediaQuery('(min-width: 1350px)');
   const [quote, setQuote] = useState<IQuote>({
     text: '“Любовь состоит из одной души, населяющей два тела.”',
     author: '(Аристотель)',
@@ -37,7 +37,7 @@ export const BusinessСard = () => {
         minH='max-content'
         alignItems='center'
       >
-        {isLargerThan1280 ? (
+        {isLargerThan1350 ? (
           <>
             <Quote text={quote.text} author={quote.author} />
             <Flex w='100%' h='100%'>

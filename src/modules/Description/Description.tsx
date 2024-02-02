@@ -31,7 +31,7 @@ export const Description = () => {
           ml={['22px', '42px', '62px', '82px', '100px']}
           mr={['38px', '52px', '62px', '30px', '30px']}
           gap={['14px', '25px', '30px', '35px', '40px']}
-          fontSize={['16px', '18px', '20px', '23px', '25px']}
+          fontSize={['19px', '22px', '23px', '24px', '25px']}
         >
           <Text>
             <span style={{ fontWeight: 500, color: '#C08F55' }}>

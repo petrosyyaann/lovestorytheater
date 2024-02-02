@@ -7,6 +7,7 @@ export const Quote = ({ text, author }: IQuote) => {
     <Flex
       direction='column'
       w='fit-content'
+      h='20svh'
       alignItems={isLargerThan1350 ? 'flex-end' : 'center'}
       px='30px'
     >
