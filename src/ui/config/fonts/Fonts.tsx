@@ -25,6 +25,9 @@ const Fonts = () => (
         scroll-behavior: smooth;
         overflow-x: hidden;
       }
+      ::-webkit-scrollbar {
+        width: 0;
+      }
       `}
   />
 );
