@@ -1,7 +1,8 @@
 import { Flex, Text } from '@chakra-ui/react';
-import DescriptionPage from '/assets/DescriptionPage.png';
+import ResumePage from '/assets/ResumePage.png';
+import { ButtonBuy } from 'components/ButtonBuy/ButtonBuy';
 
-export const Description = () => {
+export const Resume = () => {
   return (
     <Flex
       w='100%'
@@ -19,9 +20,9 @@ export const Description = () => {
           bgGradient='linear(to-r, #B67D3A, #FFFFFF)'
           w='fit-content'
           bgClip='text'
-          id='description'
+          id='resume'
         >
-          О спектакле
+          О нас
         </Text>
       </Flex>
       <Flex
@@ -39,44 +40,38 @@ export const Description = () => {
           textAlign='justify'
         >
           <Text>
+            Творческая команда проекта{' '}
             <span style={{ fontWeight: 500, color: '#C08F55' }}>
-              “История вашей любви”
+              «ОН и ОНА»{' '}
             </span>
-            — необыкновенное путешествие во времени и пространстве.
+            реализует необычную идею спектакля без актеров, в котором основным
+            действующим лицом является сам зритель.
           </Text>
           <Text>
-            Попав сюда, пары вовлекаются в “лабиринт“, полный романтических
-            историй и приключений.
-          </Text>
-          <Text>
-            Проведите вечер, погрузившись в историю первой пары на земле.
-          </Text>
-          <Text>
+            Световые, музыкальные, и визуальные эффекты создают ту уникальную
+            атмосферу, в которой становится возможным узнать и раскрыть не
+            только потенциал вашей пары, но и{' '}
             <span style={{ fontWeight: 500, color: '#C08F55' }}>
-              “Станьте ею на время“
+              познать самого себя.
             </span>
-            , чтобы больше понять про себя и про вашу вторую половинку.
-          </Text>
-          <Text>
-            Взаимодействуйте с чарующим пространством, чтобы ознакомиться с
-            историей и принять правила игры.
-          </Text>
-          <Text>
-            <span style={{ fontWeight: 500, color: '#C08F55' }}>
-              Участвуйте в истории
-            </span>
-            , пересоздавая и укрепляя свои отношения.
           </Text>
         </Flex>
         <Flex
           mt={['14px', '23px', '27px', '10px', '10px']}
           mr={['0px', '0px', '0px', '90px', '110px']}
           w='100%'
-          backgroundImage={DescriptionPage}
+          backgroundImage={ResumePage}
           backgroundSize='cover'
           backgroundPosition='50% 50%'
-          h={['300px', '370px', '510px', '630px', '730px']}
+          h={['220px', '290px', '360px', '430px', '500px']}
         />
+      </Flex>
+      <Flex
+        w='100%'
+        justifyContent='center'
+        my={['45px', '50px', '55px', '65px', '70px']}
+      >
+        <ButtonBuy />
       </Flex>
     </Flex>
   );
