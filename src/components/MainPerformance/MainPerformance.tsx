@@ -28,8 +28,12 @@ export const MainPerformance = () => {
           ОН и ОНА
         </Text>
       </Flex>
-      <Flex w='100%' justifyContent='center'>
-        <ButtonBuy mb={['35px', '52px', '60px', '77px', '85px']} />
+      <Flex
+        w='100%'
+        justifyContent='center'
+        mb={['35px', '52px', '60px', '77px', '85px']}
+      >
+        <ButtonBuy />
       </Flex>
     </Flex>
   );

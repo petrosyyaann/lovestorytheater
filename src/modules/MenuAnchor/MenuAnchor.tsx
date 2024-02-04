@@ -6,7 +6,8 @@ const MenuAnchor = () => {
     <Flex gap={['36px', '46px', '56px', '66px', '76px']} direction='row'>
       <LinkAnchor text='Главная' link='businesscard' />
       <LinkAnchor text='О спектакле' link='description' />
-      <LinkAnchor text='Билеты' link='tickets' />
+      <LinkAnchor text='Ваша история' link='tickets' />
+      <LinkAnchor text='О нас' link='resume' />
       <LinkAnchor text='Контакты' link='contacts' />
     </Flex>
   );

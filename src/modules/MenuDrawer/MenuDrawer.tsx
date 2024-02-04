@@ -48,7 +48,12 @@ export const MenuDrawer = () => {
                 link='description'
                 onClick={onClose}
               />
-              <LinkDrawer text='Билеты' link='tickets' onClick={onClose} />
+              <LinkDrawer
+                text='Ваша история'
+                link='tickets'
+                onClick={onClose}
+              />
+              <LinkDrawer text='О нас' link='resume' onClick={onClose} />
               <LinkDrawer text='Контакты' link='contacts' onClick={onClose} />
             </Flex>
           </DrawerBody>

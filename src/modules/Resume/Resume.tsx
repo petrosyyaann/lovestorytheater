@@ -59,11 +59,11 @@ export const Resume = () => {
         <Flex
           mt={['14px', '23px', '27px', '10px', '10px']}
           mr={['0px', '0px', '0px', '90px', '110px']}
-          w='100%'
+          w='100vw'
+          h={['220px', '290px', '', '', '']}
           backgroundImage={ResumePage}
           backgroundSize='cover'
           backgroundPosition='50% 50%'
-          h={['220px', '290px', '360px', '430px', '500px']}
         />
       </Flex>
       <Flex

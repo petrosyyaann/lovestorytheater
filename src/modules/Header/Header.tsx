@@ -1,4 +1,4 @@
-import { Flex, Text, useMediaQuery } from '@chakra-ui/react';
+import { Flex, useMediaQuery } from '@chakra-ui/react';
 import MenuAnchor from 'modules/MenuAnchor/MenuAnchor';
 import { MenuDrawer } from 'modules/MenuDrawer/MenuDrawer';
 

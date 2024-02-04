@@ -20,6 +20,7 @@ export const BusinessСard = () => {
         bgGradient='linear-gradient(90deg, #B67D3A -3.44%, #FFF 100%)'
         w='fit-content'
         bgClip='text'
+        id='businesscard'
       >
         ИСТОРИЯ ВАШЕЙ ЛЮБВИ
       </Text>
