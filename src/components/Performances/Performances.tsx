@@ -64,7 +64,9 @@ const Performances = ({ performances }: { performances: IPerformance[] }) => {
               }
             />
           </Flex>
-          <ButtonBuy mb={['0px', '0px', '0px', '60px', '45px']} />
+          <Flex mb={['0px', '0px', '0px', '60px', '45px']}>
+            <ButtonBuy />
+          </Flex>
         </Flex>
       </Flex>
     </Flex>
